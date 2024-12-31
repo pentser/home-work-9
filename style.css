@@ -1,0 +1,31 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container #id_board{
+    width:500px;
+    height: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.47);
+}
+
+.container .buttons {
+    margin-top: 15px;
+}
+
+button {
+    margin: 15px;
+}
+
+.tar_2,.tar_4{
+    text-align: center;
+}
+.tar_2 span {
+    font-size: 3em;
+    font-family: tahoma;
+}
+
