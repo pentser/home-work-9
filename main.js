@@ -37,7 +37,7 @@ $cancel.addEventListener("click", ()=>{
 let $span= document.getElementById("id_timer");
 let counter=10;
 let clearIntr=setInterval(()=>{
-    let timer = new Date().getSeconds();
+    //let timer = new Date().getSeconds();
     $span.innerText=counter--;
 },1000);
 
